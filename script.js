@@ -370,8 +370,6 @@ body.addEventListener('keydown', function (e) {
   if (e.code == 'MetaLeft') {
     changeLang.classList.add('active');
   }
-  console.log(e);
-  // console.log(e.target.closest('.keys'));
 });
 
 window.addEventListener('keyup', function (e) {
