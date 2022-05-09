@@ -201,7 +201,7 @@ keyboardWrap.addEventListener('click', function (e) {
 
   if (key.getAttribute('code') == 'Space') {
     spaceKey.classList.add('active');
-    textInput.innerHTML = textInput.innerHTML + '';
+    textInput.innerHTML = textInput.innerHTML + ' ';
     return;
   }
 
